@@ -1,7 +1,7 @@
 {
-  "homepage": "http://xdominix.github.io/later-app",
   "name": "later-app",
   "version": "0.1.0",
+  "homepage": "http://screenka.party",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
