@@ -1,0 +1,68 @@
+:local(.timer)
+{
+    border-radius: 10px;
+    width: 120px;
+    line-height: 50px;
+    padding: 20px;
+
+    text-align: end;
+    margin-left: auto;
+
+    
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+:local(.redTimer){color: rgba(255, 34, 34, 0.7)}
+
+.flip-card {
+    position: relative;
+    width: 100px;
+    height: 144px;
+    perspective: 1000px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-back { transform: rotateY(180deg); }
+
+/*GAME STATUS */
+:local(.gameStatusBody)
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+:local(.gameStatusBody>*)
+{
+    display: flex;
+    justify-content: space-between;
+}
+:local(.gameStatusBody>*>:first-child)
+{
+    margin-right: 10px;
+}
+
+:local(.gameStatusBody>:last-child>div){
+    color: rgb(168, 143, 0);
+}
+
+.wave-box
+{
+border-radius: 10px;
+
+display: flex;
+align-items: center;
+justify-content:space-around;
+}

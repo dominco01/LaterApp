@@ -1,0 +1,120 @@
+LATER - gambling game
+probujemy w reactcie??
+5% (napisane) a bedzie 20% i pozniej nic
+
+grasz z botem ale nawet o tym nie wiesz.
+kasz zestaw kart 30s na ruch.
+bot wstawia karty z rozlladem gaussa.
+cel jest taki by przyrownac jak najblizej dealera kart.
+w trakcie jest jeszcze podbijanie stawek.
+jednakze trzeba ograniczyc mozliwosc decyzji do minimum, karty + bet + fold?
+musisz rozplanowac zagranie, tym samym na poczatku obstawiasz cene o jaka grasz. ( moze po zabetowaniu wylosowanych kart dobiera gracza kty tez się chce za podobna cenke betowac)
+liczba aktywnych graczy wazna.
+srednia stawka za bet start tez bedzie znana.
+no i tyle, zbierasz pubkty i chwalisz się znajomym.
+
+MAYBE: na poczatku wybierasz kolor - czerwony ty bedzie zaczynal, czarny ty dokladasz.z tym że czerwony bedzie miec priorytet, w next rundzie się rola zamienia. wyeliminowalibysmy problem tych samych kart. wybierasz kolor?
+
+kazda runda jedt punktowana 100.100.100.100.500
+mozna zrobic tryby
+5kart 5rund
+
+////////////NEW//////////
+TO THINK:
+info -> rules (in /game)
+klasyfikacja grupowanie gier (PRO,BASIC) ale sa tez fast i co teraz
+
+
+SOON:
+Daily Money
+Lepsza animacja money balance (max 100klatek, przy koncu zwalnia)
+Game id - zrobic nie po kolei (Online trzeba bedzie przebudowac) (ANTY ROUTING)
+localStorage - save curr online players to uploud on refresh
+skrzynki i ruletki
+LIQ
+zetony (design + moze jakies wykorzystanie?)
+light mode
+info w /game poprawic zeby byly tylko must have inforamcje
+sounds!!!
+prefire 5 kart, moze gamemode?: prefire! (prefire button? ;>)
+3 carty game mode?
+AI (MORE LOWER)
+PLAYER-INFo(more lower)
+save to local waiting list (on refersh case)
+black jack in mini window
+chackbox zamiast slider np. 1-10$,10-100$,...
+exchange card button ? gdzie w CGame czy CHand??
+poziomy ai.
+exchange button disabled on 0.
+poznanie formacji kart przy exchange-stage.
+likeaboss - you already use this code
+random nick sie zmienia co 1 odswiezenie klatki
+exchange najezdza na karty
+1.4 - useless. // lepszy 1.1.1.2.2
+op quit during game
+info-side-bar - less text
+ggs decyduja czy lock sa gry czy nie. (>40ggs)
+
+--- STYLING ---
+trzymamy sie zlotego podzialu - navbar , sidebar , content
+
+--- SLOWNIK ---
+handDeck + flop = hand
+tableDeck + flop = table
+flop with flips
+deck with cards
+
+-- ABOUT --
+wersja 
+by xDominix
+
+LATER - prototyped by AI System. (!!!)
+
+O LATER
+to moje dziecko, ma niespelna 100h a juz czuje ze sie przy nim nasiedzialem za dlugo.
+moze mi sie kiedys odwdzieczy, chcialbym byc z niego dumny.
+
+FULL AI SYSTEM (NOT MULTIPLAYER) (AI SIMULATION)
+Z zalozenia ta gra nie powstawala pod multiplayer mode.
+Celem tej produkcji jest rozwiniety system AI, stworzony tak by potencjalny gracz nie wiedzial ze gra z algorytmem.
+Chce pokazac, ze gry tego typu nie potrzebuja ludzkiej ingerencji.
+
+AI PROJECT
+
+MATH
+14 400 roznych kombinacji zagran 1 partii.
+~ 4*10^17 roznych gier
+
+
+--RANK (SOON)--
+gdy stworze ai trzeba bedzie ogarnac ai
+zebys wiedzial czy sie wygrana jarac.
+diamond/gold/silver/transparent || beginner/gamer/pro/x
+zalezne od money? greens? tego i tego?
+jesli zalezne od money to => level progress bar (10$ -> 100$ -> 1000$) (SILVER -> GOLD itp.)
+
+- BIGGERS -
+Ranking takie: jestes #10021! . w miare gry sie zmniejsza
+Po GGsach ocena?? czy inne?
+
+--path?--
+AI -> MULTI PLAYER?
+
+--PLAYER INFO--
+GGS
+Money => RANK??
+greens + red => green ratio
+Win + Lose + Draw => win ratio
+
+-- AI --
+PROPOZYCJE HEURYSTYK GRACZA:
+random - losowe
+closest to current - optymalne dla aktualnej rundy
+middleend - granie pod koniec gry (zachowywanie "srodkowej karty")
+random+... - czasem losowo czasem madrzej
+min-max - TODO
+min-min - przeciwnik mysli przeciwnie do optymalnego ruchu (??)
+inne - TODO
+
+-- SUPER AI --
+wgrac super ai do gry, wygrana to bedzie totalna ruletka, dajesz tak randomowo karty ze nie wiadomo co sie dzieje

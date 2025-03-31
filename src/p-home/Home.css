@@ -1,0 +1,22 @@
+:local(.flex)
+{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+:local(.flex>*)
+{
+    margin-bottom: 40px;
+}
+
+:local(.flex>:last-child)
+{
+    display: flex;
+    
+}
+:local(.flex>:last-child>*)
+{
+    margin: 20px;
+}
