@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import {CCard } from "./CCard";
 import style from './CHand.module.css'
 import { useEffect } from "react";
+import './local.css'
 
 export const CHand = ({initSize,handDeck,flop,isAcceptable,show={index:-1,isActive:false,cardPreview:false}}) => {
     //handDeck nullable, ex. [null,card,card,null,null], state

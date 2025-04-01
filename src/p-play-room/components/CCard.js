@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Color, Figure } from '../../models/cards';
+import './local.css'
 
 export const CCard = ({card,isFlipped,onClick}) => {
     

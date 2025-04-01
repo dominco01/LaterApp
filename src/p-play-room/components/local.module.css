@@ -57,12 +57,3 @@
 :local(.gameStatusBody>:last-child>div){
     color: rgb(168, 143, 0);
 }
-
-.wave-box
-{
-border-radius: 10px;
-
-display: flex;
-align-items: center;
-justify-content:space-around;
-}

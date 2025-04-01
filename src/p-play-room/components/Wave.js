@@ -1,5 +1,6 @@
 import React from "react";
 import { MiniCard } from "./CCard";
+import './local.css'
 
 //main
 const boxHeight = 134; //in px (144-boxPadding)
