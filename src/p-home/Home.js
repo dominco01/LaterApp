@@ -3,7 +3,7 @@ import React, { useContext, useEffect } from 'react';
 import MainName from '../components/MainName';
 import GameBox from './components/GameBox';
 
-import style from "./Home.css"
+import style from "./Home.module.css"
 import { NotificationContext } from '../context/NotificationContext';
 import { DialogContext } from '../context/DialogContext';
 import classNames from 'classnames';
