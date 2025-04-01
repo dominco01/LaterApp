@@ -12,7 +12,7 @@ import { DialogContext } from '../context/DialogContext';
 import { AccountContext } from '../context/AccountContext';
 import Timer from './components/timer';
 import { GameSet } from '../models/consts';
-import style from './local.css'
+import style from './local.module.css'
 import classNames from 'classnames';
 import {Name} from '../components/Name';
 import { Link } from 'react-router-dom';

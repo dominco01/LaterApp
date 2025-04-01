@@ -1,6 +1,6 @@
 import React from "react";
 import Status from "./status";
-import style from './local.css'
+import style from './local.module.css'
 
 const GameStatus = ({points,gameStatus}) => {
 

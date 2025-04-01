@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 import { DialogContext } from '../context/DialogContext';
 import { GameSet } from '../models/consts';
 import RoomList from './components/RoomList';
-import style from './local.css'
+import style from './local.module.css'
 
 const WaitingRoom = () => {
 

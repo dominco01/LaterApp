@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import {CCard } from "./CCard";
-import style from './CHand.css'
+import style from './CHand.module.css'
 import { useEffect } from "react";
 
 export const CHand = ({initSize,handDeck,flop,isAcceptable,show={index:-1,isActive:false,cardPreview:false}}) => {

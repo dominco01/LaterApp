@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useRef } from "react";
 import { useEffect } from "react";
-import style from './local.css'
+import style from './local.module.css'
 
 const Timer = ({sets,onEnd}) => { // {time,reset,dotted=null}
     
